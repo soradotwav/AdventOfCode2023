@@ -11,15 +11,6 @@ Hey there, welcome to my Advent of Code 2023 repository! If you need any help so
 
 I did not 100% optimize any of my solutions as I just focus on solving them in not the worst way to not only have less pressure on myself to focus too much on these little problems, to have more fun, and to give a more approachable solution.
 
-## 🔖 Table of Contents
-
-- [Structure](#structure)
-- [How to Use](#how-to-use)
-- [Progress Checklist](#progress-checklist)
-- [Contributing](#contributing)
-- [Connect](#connect)
-- [License](#license)
-
 ## 📁 Structure
 
 Each day's puzzle solution is organized as follows:
