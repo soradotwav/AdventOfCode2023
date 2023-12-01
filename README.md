@@ -11,6 +11,8 @@ Hey there, welcome to my Advent of Code 2023 repository! If you need any help so
 
 I did not 100% optimize any of my solutions as I just focus on solving them in not the worst way to not only have less pressure on myself to focus too much on these little problems, to have more fun, and to give a more approachable solution.
 
+If this repo helped you with completing Advent of Code please make sure to star this repo! It would mean a lot!
+
 ## 📁 Structure
 
 Each day's puzzle solution is organized as follows:
@@ -32,16 +34,16 @@ I am only using base Java 21 so you do not have to install any dependencies.
 ## ☑️ Progress Checklist
 
 **Week 1**
-- [x] Day 1 | [ ] Day 2 | [ ] Day 3 | [ ] Day 4 | [ ] Day 5 | [ ] Day 6 | [ ] Day 7
+- ✅ Day 1 | ❌ Day 2 | ❌ Day 3 | ❌ Day 4 | ❌ Day 5 | ❌ Day 6 | ❌ Day 7
 
 **Week 2**
-- [ ] Day 8 | [ ] Day 9 | [ ] Day 10 | [ ] Day 11 | [ ] Day 12 | [ ] Day 13 | [ ] Day 14
+- ❌ Day 8 | ❌ Day 9 | ❌ Day 10 | ❌ Day 11 | ❌ Day 12 | ❌ Day 13 | ❌ Day 14
 
 **Week 3**
-- [ ] Day 15 | [ ] Day 16 | [ ] Day 17 | [ ] Day 18 | [ ] Day 19 | [ ] Day 20 | [ ] Day 21
+- ❌ Day 15 | ❌ Day 16 | ❌ Day 17 | ❌ Day 18 | ❌ Day 19 | ❌ Day 20 | ❌ Day 21
 
 **Week 4 & Christmas Week**
-- [ ] Day 22 | [ ] Day 23 | [ ] Day 24 | [ ] Day 25 🌟
+- ❌ Day 22 | ❌ Day 23 | ❌ Day 24 | ❌ Day 25 🌟
 
 ## 🤝🏻 Contributing
 
