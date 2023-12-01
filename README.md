@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-active-success.svg)
 ![Language Used](https://img.shields.io/github/languages/top/soradotwav/adventofcode2023)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/soradotwav/adventofcode2023.svg)
+![GitHub Pull Requests](https://img.shields.io/github/issues/soradotwav/adventofcode2023.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 
