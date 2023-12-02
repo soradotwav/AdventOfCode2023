@@ -8,7 +8,7 @@ import java.util.Scanner;
  * This class provides functionality to compute a calibration number from a file input.
  * Each line of the file is processed to generate a calibration number.
  */
-public class Main {
+public class Day1Main {
 
     /**
      * A map to associate strings representing numbers to their numeric values.
