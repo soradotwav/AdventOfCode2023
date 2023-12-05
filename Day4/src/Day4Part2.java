@@ -1,37 +1,43 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
-public class Day4Part1 {
+public class Day4Part2 {
 
     private static Set<Integer> currCard;
     private static Set<Integer> currWinningNums;
+    private static Map<Integer, Integer> duplicatesMap = new HashMap<>();
 
     /**
-     * The main method reads from a file containing scratchcard data, where each line represents a card with
-     * a list of winning numbers and owned numbers. It calculates the total points for all cards based on
-     * the matching numbers and their corresponding point values.
+     * Main method to read scratchcard data from a file and calculate the total number of scratchcards.
+     * It iterates through each scratchcard, determines the number of winning matches, and computes
+     * the number of additional scratchcards won. The process accounts for both original and copied
+     * scratchcards.
      *
      * @param args Command line arguments (not used).
      */
     public static void main(String[] args) {
         try(Scanner input = new Scanner(new File("Day4/input.txt"))) {
 
-            int totalScore = 0;
+            int scratchcardCount = 0;
 
-            while(input.hasNextLine()) {
+            // Iterate through all cards
+            for(int i = 1; i < 205; i++) {
                 loadLine(input);
                 int winningSize = currWinningNums.size();
                 currWinningNums.removeAll(currCard);
                 int winningAmount = winningSize - currWinningNums.size();
 
-                if(winningAmount == 1) totalScore += 1;
-                else if (winningAmount > 1) totalScore += 1 * Math.pow(2, winningAmount - 1);
+                int currDuplicates = duplicatesMap.getOrDefault(i, 1);
+                scratchcardCount += currDuplicates;
+
+                for(int j = i + 1; j < i + 1 + winningAmount; j++) {
+                    duplicatesMap.put(j, duplicatesMap.getOrDefault(j, 1) + currDuplicates);
+                }
+
             }
 
-            System.out.println(totalScore);
+            System.out.println(scratchcardCount);
 
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
@@ -40,9 +46,9 @@ public class Day4Part1 {
     }
 
     /**
-     * Processes a single line from the input file, extracting the set of owned numbers and winning numbers of the current card.
-     * The method updates the static variables currCard and currWinningNums based on the line read.
-     * Each line represents a card and follows the format: owned numbers | winning numbers.
+     * Loads and processes a single line of scratchcard data from the input file.
+     * It parses the line to extract the numbers of the current scratchcard and its winning numbers,
+     * updating the static variables currCard and currWinningNums.
      *
      * @param input Scanner object used to read the input file.
      */
