@@ -5,7 +5,7 @@ import java.util.*;
 // destination-range-start || source-range-start || range
 public class Day5Part1 {
     public static void main(String[] args) {
-        try (Scanner input = new Scanner(new File("input.txt"))) {
+        try (Scanner input = new Scanner(new File("Day5/input.txt"))) {
 
             ArrayList<Long> seeds = new ArrayList<>();
             long smallestNum = Long.MAX_VALUE;
