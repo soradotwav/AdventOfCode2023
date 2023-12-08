@@ -27,17 +27,17 @@ Day[Number]
 
 ## 🖥️ How to Use
 
-To run a solution, navigate to the corresponding day's directory and execute the Main class within the `src` folder.
+To run a solution, navigate to the corresponding day's directory and execute the Day8Part1 class within the `src` folder.
 
 I am only using base Java 21 so you do not have to install any dependencies.
 
 ## ☑️ Progress Checklist
 
 **Week 1**
-- ✅ Day 1 | ✅ Day 2 | ❌ Day 3 | ✅ Day 4 | ✅ Day 5 | ✅ Day 6 | ❌ Day 7
+- ✅ Day 1 | ✅ Day 2 | ❌ Day 3 | ✅ Day 4 | ✅ Day 5 | ✅ Day 6 | ✅ Day 7
 
 **Week 2**
-- ❌ Day 8 | ❌ Day 9 | ❌ Day 10 | ❌ Day 11 | ❌ Day 12 | ❌ Day 13 | ❌ Day 14
+- ✅ Day 8 | ❌ Day 9 | ❌ Day 10 | ❌ Day 11 | ❌ Day 12 | ❌ Day 13 | ❌ Day 14
 
 **Week 3**
 - ❌ Day 15 | ❌ Day 16 | ❌ Day 17 | ❌ Day 18 | ❌ Day 19 | ❌ Day 20 | ❌ Day 21
