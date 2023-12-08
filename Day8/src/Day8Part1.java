@@ -8,6 +8,13 @@ public class Day8Part1 {
 
     private static Map<String, String[]> map = new HashMap<>();
 
+    /**
+     * The main method reads input from a file, initializes the map of nodes,
+     * and starts the traversal process from a designated start node.
+     * It counts the number of steps taken to reach a specific target node.
+     *
+     * @param args Command line arguments (not used).
+     */
     public static void main(String[] args) {
         try(Scanner scanner = new Scanner(new File("Day8/input.txt"))) {
 
@@ -36,6 +43,12 @@ public class Day8Part1 {
         }
     }
 
+    /**
+     * Sets up the initial state by parsing the input and populating the map
+     * with nodes and their corresponding left and right nodes.
+     *
+     * @param scanner Scanner object to read input.
+     */
     private static void setup(Scanner scanner) {
         scanner.nextLine();
 
